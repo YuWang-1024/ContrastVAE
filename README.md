@@ -1,11 +1,16 @@
 This is the repository for paper: ContrastVAE: Contrastive Variational AutoEncoder for Sequential
 Recommendation
 
-## the model version control:\\
---variational_dropout : using the variational augmentation \\
---latent_contrastive_learning: using the model augmentation\\
---latent_data_augmentation: using the data augmentation\\
---VAandDA: using both variational augmentation and data augmentation \\
+## the model version control:
+
+--variational_dropout : using the variational augmentation 
+
+--latent_contrastive_learning: using the model augmentation
+
+--latent_data_augmentation: using the data augmentation
+
+--VAandDA: using both variational augmentation and data augmentation 
+
 without any above version control: the model is the vanial attentive variational autoencoder
 
 
