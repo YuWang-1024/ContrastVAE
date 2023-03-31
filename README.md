@@ -11,7 +11,7 @@ Recommendation
 
 --VAandDA: using both variational augmentation and data augmentation 
 
-without any above version control: the model is the vanial attentive variational autoencoder
+without any above version control: the model is the vanilla attentive variational autoencoder
 
 
 ## train on Beauty
