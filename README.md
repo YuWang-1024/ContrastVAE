@@ -1,4 +1,4 @@
-This is the repository for paper: ContrastVAE: Contrastive Variational AutoEncoder for Sequential
+This is the repository for paper: [ContrastVAE: Contrastive Variational AutoEncoder for Sequential](https://arxiv.org/pdf/2209.00456.pdf)
 Recommendation
 
 ## the model version control:
@@ -26,4 +26,14 @@ python main.py --variational_dropout --gpu_id 1 --data_name=Tools_and_Home_Impro
 ## Toy
 
 python main.py --variational_dropout --gpu_id 1 --data_name=Toys_and_Games --latent_clr_weight=0.3 --lr=0.001 --hidden_size=128 --max_seq_length=100 --hidden_dropout_prob=0.3 --num_hidden_layers=1 --weight_decay=0.0 --num_attention_heads=4 --model_name=VAGRecVD --attention_probs_dropout_prob=0.3 --anneal_cap=0.2 --total_annealing_step=10000 
+
+## Reference
+
+> @inproceedings{wang2022contrastvae,
+  title={ContrastVAE: Contrastive Variational AutoEncoder for Sequential Recommendation},
+  author={Wang, Yu and Zhang, Hengrui and Liu, Zhiwei and Yang, Liangwei and Yu, Philip S},
+  booktitle={Proceedings of the 31st ACM International Conference on Information \& Knowledge Management},
+  pages={2056--2066},
+  year={2022}
+}
 
