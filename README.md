@@ -1,5 +1,5 @@
-This is the repository for paper: [ContrastVAE: Contrastive Variational AutoEncoder for Sequential](https://arxiv.org/pdf/2209.00456.pdf)
-Recommendation
+This is the repository for paper: [ContrastVAE: Contrastive Variational AutoEncoder for Sequential Recommendation](https://arxiv.org/pdf/2209.00456.pdf)
+
 
 ## the model version control:
 
